@@ -9,7 +9,9 @@
 .Weather form {
   margin-bottom: 20px;
 }
-
+.Weather .form-control {
+  border: 1px solid #e6a4b4;
+}
 .Weather h1 {
   font-size: 25px;
   line-height: 29px;
@@ -47,4 +49,20 @@
   top: -34px;
   margin-left: 5px;
   line-height: 1;
+}
+
+.Weather .unit a {
+  color: #6b3a47;
+}
+
+.Weather .btn {
+  border: 1px solid #f3d7ca;
+  color: #f3d7ca;
+  background-color: #c86b85;
+}
+
+.Weather .btn:hover {
+  border: 1px solid #c86b85;
+  color: #c86b85;
+  background-color: #f3d7ca;
 }
